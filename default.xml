@@ -9,7 +9,7 @@
 <!-- driver -->
 
 <!-- platform -->
-    <project name="hal.git" path="ROBOMASTER-HERO/code/infrastructure/platform/hal"/>
+    <project name="hal" path="ROBOMASTER-HERO/code/infrastructure/platform/hal"/>
 
 <!-- component -->
 
