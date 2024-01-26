@@ -5,16 +5,21 @@
     <default remote="origin" revision="develop"/>
 
 <!-- root -->
-
+    <project name="ROBOMASTER-HERO" path="ROBOMASTER-HERO"/>
 <!-- driver -->
-
+    <project name="bsp_robomaster_hero" path="ROBOMASTER-HERO/code/infrastructure/bsp/robomaster_hero"/>
 <!-- platform -->
     <project name="hal" path="ROBOMASTER-HERO/code/infrastructure/platform/hal"/>
-     <project name="bsp_robomaster_hero" path="ROBOMASTER-HERO/code/infrastructure/bsp/robomaster_hero"/>
+    <project name="arch" path="ROBOMASTER-HERO/code/infrastructure/platform/arch"/>
+    
 <!-- component -->
-
+     <project name="common" path="ROBOMASTER-HERO/code/infrastructure/component/common"/>
 
 <!-- device -->
-
-
+    <project name="led" path="ROBOMASTER-HERO/code/infrastructure/device/led"/>
+    <project name="dr16" path="ROBOMASTER-HERO/code/infrastructure/device/dr16"/>
+    <project name="motor" path="ROBOMASTER-HERO/code/infrastructure/device/motor"/>
+<!-- third_party -->
+    <project name="etl" path="ROBOMASTER-HERO/code/infrastructure/third_party/etl"/>
+    <project name="threadx" path="ROBOMASTER-HERO/code/infrastructure/third_party/threadx"/>
 </manifest>
