@@ -10,7 +10,7 @@
 
 <!-- platform -->
     <project name="hal" path="ROBOMASTER-HERO/code/infrastructure/platform/hal"/>
-     <project name="hal" path="ROBOMASTER-HERO/code/infrastructure/bsp/bsp_robomaster_hero"/>
+     <project name="bsp_robomaster_hero" path="ROBOMASTER-HERO/code/infrastructure/bsp/robomaster_hero"/>
 <!-- component -->
 
 
