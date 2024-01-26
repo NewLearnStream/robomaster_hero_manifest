@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<manifest>
+    <remote name="origin" fetch="http://192.168.8.24/te21/embe"/>
+    <default remote="origin" revision="develop"/>
+
+<!-- root -->
+    <project name="project/tg01/main/app/te21-tg01-sw_main-app.git" path="TE21-TG01-SW_MAIN-APP"/>
+
+<!-- driver -->
+    <project name="infrastructure/driver.git" path="TE21-TG01-SW_MAIN-APP/src/driver"/>
+
+<!-- platform -->
+    <project name="infrastructure/platform.git" path="TE21-TG01-SW_MAIN-APP/src/platform"/>
+
+<!-- component -->
+    <project name="infrastructure/component/algorithm.git" path="TE21-TG01-SW_MAIN-APP/src/component/algorithm"/>
+    <project name="infrastructure/component/codec.git" path="TE21-TG01-SW_MAIN-APP/src/component/codec"/>
+    <project name="infrastructure/component/param_manager.git" path="TE21-TG01-SW_MAIN-APP/src/component/param_manager"/>
+    <project name="infrastructure/component/router.git" path="TE21-TG01-SW_MAIN-APP/src/component/router"/>
+    <project name="infrastructure/component/diagnosis.git" path="TE21-TG01-SW_MAIN-APP/src/component/diagnosis"/>
+    <project name="infrastructure/component/monoui.git" path="TE21-TG01-SW_MAIN-APP/src/component/monoui"/>
+    <project name="infrastructure/component/usb.git" path="TE21-TG01-SW_MAIN-APP/src/component/usb"/>
+    <project name="infrastructure/component/iap.git" path="TE21-TG01-SW_MAIN-APP/src/component/iap"/>
+
+<!-- third_party -->
+    <project name="infrastructure/third_party/azure_rtos/threadx.git" path="TE21-TG01-SW_MAIN-APP/src/third_party/azure_rtos/threadx"/>
+    <project name="infrastructure/third_party/azure_rtos/usbx.git" path="TE21-TG01-SW_MAIN-APP/src/third_party/azure_rtos/usbx"/>
+    <project name="infrastructure/third_party/arm/cmsis.git" path="TE21-TG01-SW_MAIN-APP/src/third_party/arm/cmsis"/>
+    <project name="infrastructure/third_party/etl.git" path="TE21-TG01-SW_MAIN-APP/src/third_party/etl"/>
+    <project name="infrastructure/third_party/nanopb.git" path="TE21-TG01-SW_MAIN-APP/src/third_party/nanopb"/>
+    <project name="infrastructure/third_party/pigweed.git" path="TE21-TG01-SW_MAIN-APP/src/third_party/pigweed"/>
+    <project name="infrastructure/third_party/st/usbx_stm32_device_controllers.git" path="TE21-TG01-SW_MAIN-APP/src/third_party/st/usbx_stm32_device_controllers"/>
+
+</manifest>
